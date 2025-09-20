@@ -15,5 +15,5 @@ jobs:
     uses: IvanJosipovic/KubernetesCRDModelGen/.github/workflows/cicd-template.yaml@alpha
     secrets:
       GH_TOKEN: ${{ secrets.GHPAT }}
-
       NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+
