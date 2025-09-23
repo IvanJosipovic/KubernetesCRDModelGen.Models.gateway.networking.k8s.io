@@ -2,5 +2,6 @@
   <PropertyGroup>
     <PackageId>KubernetesCRDModelGen.Models.gateway.networking.k8s.io</PackageId>
     <RepositoryUrl>https://github.com/IvanJosipovic/KubernetesCRDModelGen.Models.gateway.networking.k8s.io</RepositoryUrl>
+    <Description>C# models for Kubernetes CRDs in group gateway.networking.k8s.io</Description>
   </PropertyGroup>
 </Project>
