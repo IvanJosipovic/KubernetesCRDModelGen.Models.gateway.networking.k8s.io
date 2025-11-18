@@ -1259,6 +1259,8 @@ spec:
         type: object
     served: false
     storage: false
+    subresources:
+      status: {}
 status:
   acceptedNames:
     kind: ""
