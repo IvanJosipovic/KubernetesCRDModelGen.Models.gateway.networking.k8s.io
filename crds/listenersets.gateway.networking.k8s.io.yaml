@@ -9,9 +9,9 @@ metadata:
 spec:
   group: gateway.networking.k8s.io
   names:
+    kind: ListenerSet
     categories:
     - gateway-api
-    kind: ListenerSet
     listKind: ListenerSetList
     plural: listenersets
     shortNames:

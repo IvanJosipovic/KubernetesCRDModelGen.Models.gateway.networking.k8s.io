@@ -9,9 +9,9 @@ metadata:
 spec:
   group: gateway.networking.k8s.io
   names:
+    kind: TLSRoute
     categories:
     - gateway-api
-    kind: TLSRoute
     listKind: TLSRouteList
     plural: tlsroutes
     singular: tlsroute
