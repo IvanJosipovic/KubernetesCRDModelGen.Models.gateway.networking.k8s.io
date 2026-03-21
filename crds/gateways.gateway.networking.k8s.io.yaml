@@ -239,7 +239,7 @@ spec:
                       An implementation may chose to add additional implementation-specific annotations as they see fit.
 
                       Support: Extended
-                    maxProperties: 8
+                    maxProperties: 16
                     type: object
                     x-kubernetes-validations:
                     - message: Annotation keys must be in the form of an optional DNS subdomain prefix followed by a required name segment of up to 63 characters.
@@ -1831,7 +1831,7 @@ spec:
                       An implementation may chose to add additional implementation-specific annotations as they see fit.
 
                       Support: Extended
-                    maxProperties: 8
+                    maxProperties: 16
                     type: object
                     x-kubernetes-validations:
                     - message: Annotation keys must be in the form of an optional DNS subdomain prefix followed by a required name segment of up to 63 characters.
