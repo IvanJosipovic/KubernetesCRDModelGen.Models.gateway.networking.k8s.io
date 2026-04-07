@@ -3203,7 +3203,3 @@ spec:
     storage: false
     subresources:
       status: {}
-status:
-  acceptedNames:
-    kind: ""
-    plural: ""
