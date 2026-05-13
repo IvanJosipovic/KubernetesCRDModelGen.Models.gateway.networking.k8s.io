@@ -182,7 +182,7 @@ public partial class V1beta1ReferenceGrantSpec
 [global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
-public partial class V1beta1ReferenceGrant : IKubernetesObject<V1ObjectMeta>, ISpec<V1beta1ReferenceGrantSpec?>
+public partial class V1beta1ReferenceGrant : IKubernetesObject<V1ObjectMeta>, ISpec<V1beta1ReferenceGrantSpec>
 {
     public const string KubeApiVersion = "v1beta1";
     public const string KubeKind = "ReferenceGrant";
@@ -202,5 +202,5 @@ public partial class V1beta1ReferenceGrant : IKubernetesObject<V1ObjectMeta>, IS
 
     /// <summary>Spec defines the desired state of ReferenceGrant.</summary>
     [JsonPropertyName("spec")]
-    public V1beta1ReferenceGrantSpec? Spec { get; set; }
+    public required V1beta1ReferenceGrantSpec Spec { get; set; }
 }
